@@ -29,3 +29,7 @@ end
 def full?(board)
   board.all? {|space| (space == "X" || space == "O")}
 end
+
+def draw?(board)
+  full?(board) && !won?(board)
+end
