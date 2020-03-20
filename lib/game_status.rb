@@ -39,5 +39,5 @@ def over?(board)
 end
 
 def winner(board)
-  puts "Working on this"
+  won?(board) ? puts "working on this" : false
 end
